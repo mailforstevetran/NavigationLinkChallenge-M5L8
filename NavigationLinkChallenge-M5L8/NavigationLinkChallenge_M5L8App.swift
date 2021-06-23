@@ -11,7 +11,7 @@ import SwiftUI
 struct NavigationLinkChallenge_M5L8App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(LinkModel())
         }
     }
 }
