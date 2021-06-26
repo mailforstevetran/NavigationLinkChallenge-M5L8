@@ -9,22 +9,19 @@ import SwiftUI
 
 struct ChildView: View {
     
-    @EnvironmentObject var model: LinkModel
+
+    @Binding var childViewSelected: Int?
     
     var body: some View {
-        if model.childViewSelected != nil {
-        Text("I am view \(model.childViewSelected!)")
-        }   
+        if childViewSelected != nil {
+        Text("I am view \(childViewSelected!)")
+        }
         Button(action: {
-            model.childViewSelected = nil
+            childViewSelected = nil
         }, label: {
             Text("Go Back")
         })
     }
 }
 
-struct ChildView_Previews: PreviewProvider {
-    static var previews: some View {
-        ChildView()
-    }
-}
+

@@ -11,7 +11,6 @@
 		C55BBAAF2682C097003EBB8E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55BBAAE2682C097003EBB8E /* ContentView.swift */; };
 		C55BBAB12682C098003EBB8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C55BBAB02682C098003EBB8E /* Assets.xcassets */; };
 		C55BBAB42682C098003EBB8E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C55BBAB32682C098003EBB8E /* Preview Assets.xcassets */; };
-		C55BBABC2682C0D0003EBB8E /* LinkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55BBABB2682C0D0003EBB8E /* LinkModel.swift */; };
 		C55BBABE2682C40B003EBB8E /* ChildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55BBABD2682C40B003EBB8E /* ChildView.swift */; };
 /* End PBXBuildFile section */
 
@@ -22,7 +21,6 @@
 		C55BBAB02682C098003EBB8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C55BBAB32682C098003EBB8E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C55BBAB52682C098003EBB8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C55BBABB2682C0D0003EBB8E /* LinkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkModel.swift; sourceTree = "<group>"; };
 		C55BBABD2682C40B003EBB8E /* ChildView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -59,7 +57,6 @@
 				C55BBAAC2682C097003EBB8E /* NavigationLinkChallenge_M5L8App.swift */,
 				C55BBAAE2682C097003EBB8E /* ContentView.swift */,
 				C55BBABD2682C40B003EBB8E /* ChildView.swift */,
-				C55BBABB2682C0D0003EBB8E /* LinkModel.swift */,
 				C55BBAB02682C098003EBB8E /* Assets.xcassets */,
 				C55BBAB52682C098003EBB8E /* Info.plist */,
 				C55BBAB22682C098003EBB8E /* Preview Content */,
@@ -144,7 +141,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C55BBABC2682C0D0003EBB8E /* LinkModel.swift in Sources */,
 				C55BBABE2682C40B003EBB8E /* ChildView.swift in Sources */,
 				C55BBAAF2682C097003EBB8E /* ContentView.swift in Sources */,
 				C55BBAAD2682C097003EBB8E /* NavigationLinkChallenge_M5L8App.swift in Sources */,

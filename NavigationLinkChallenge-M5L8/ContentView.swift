@@ -9,8 +9,11 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @EnvironmentObject var model: LinkModel
+    // @EnvironmentObject var model: LinkModel
     @State var selectedChild = 5
+    
+    // Steve new code
+    @State var childViewSelected: Int?
     var body: some View {
         
         NavigationView {
@@ -19,20 +22,18 @@ struct ContentView: View {
                     ForEach(0..<10) { index in
                         Text(String(index)).tag(index)
                     }
-                   
+                    
                 }
-                
-                NavigationLink(
-                    destination: ChildView(),
-                    tag: selectedChild,
-                    selection: $model.childViewSelected,
-                    label: {Text("Go to view \(selectedChild)")})
-        
-       
-    }
+                NavigationLink(destination: ChildView(childViewSelected: $childViewSelected),
+                               tag: selectedChild,
+                               selection: $childViewSelected) {
+                                    Text("Go to view \(selectedChild)")
+                                }
+          
+            }
         }
-           
-}
+        
+    }
 }
 
 struct ContentView_Previews: PreviewProvider {
